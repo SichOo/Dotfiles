@@ -1,0 +1,14 @@
+[include]
+  path = ~/.config/git/private
+
+[core]
+  excludeFile = ~/.config/git/ignore
+
+[pager]
+  branch = false
+
+[push]
+  default = current
+
+[color]
+  ui = auto
