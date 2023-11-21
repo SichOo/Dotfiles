@@ -8,10 +8,12 @@ alias path='echo -e ${PATH//:/\\n}'
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 # COMMON
-alias cat="$(which bat)"
+#alias cat="$(which bat)"
 alias cp='cp -iv'
 alias mv='mv -iv'
 alias mkd='mkdir -p'
+
+alias vim="$(which nvim)"
 
 # LS
 alias ls="$(which exa)"

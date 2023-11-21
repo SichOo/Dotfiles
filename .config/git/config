@@ -1,3 +1,7 @@
+[user]
+	name = sichoo
+	email = s1cho@proton.me
+
 [include]
   path = ~/.config/git/private
 
@@ -12,3 +16,5 @@
 
 [color]
   ui = auto
+[init]
+	defaultBranch = main
